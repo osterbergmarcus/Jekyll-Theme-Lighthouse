@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:700' rel='stylesheet' type='text/css'>
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <body>
+
+  <input type="checkbox" id="sidebartoggler" name="" value=""></input>
+
+ <div class="page-wrap">
+
+   <div class="blog-header">
+     <div class="post-header">
+       <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </div>
+   </div>
+
+  <label for="sidebartoggler" class="toggle">☰</label>
+  <label for="sidebartoggler" class="toggle2">x</label>
+
+    <div class="page-content">
+        {{ content }}
+    </div>
+
+        {% include sidebar.html %}
+
+        {% include disqus.html %}
+        <footer class="site-footer2">
+          <a href="/">
+           <div class="wrapper2">
+            <div class="text">
+             <span class="back-to-archive"><h1>< Archive</h1></span>
+            </div>
+           </div>
+         </a>
+        </footer>
+ </div>
+
+  </body>
+
+</html>
