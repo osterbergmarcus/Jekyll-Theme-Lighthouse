@@ -1,5 +1,6 @@
-# Marcus Osterberg Blog
-A simple blog powerd by (http://www.http://jekyllrb.com/)
+# Lighthouse blog
+A simple blog powerd by (http://jekyllrb.com/)
+Check it out here (http://www.osterbergmarcus.github.io)
 
 ## Contact
 [@_osterbergmarcus](http://www.twitter.com/osterbergmarcus)
@@ -9,7 +10,6 @@ A simple blog powerd by (http://www.http://jekyllrb.com/)
 Feel free for pull requests
 
 ## Tools and Libraries
-Tools and libraries used in this theme
 
 ### JavaScript
  * [jQuery](http://jquery.com/)
