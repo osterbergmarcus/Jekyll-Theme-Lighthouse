@@ -1,6 +1,6 @@
 # Lighthouse blog
 A simple blog powerd by (http://jekyllrb.com/)
-Check it out here (http://www.osterbergmarcus.github.io)
+Check it out here (http://osterbergmarcus.github.io)
 
 ## Contact
 [@_osterbergmarcus](http://www.twitter.com/osterbergmarcus)
