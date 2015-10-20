@@ -5,7 +5,6 @@ description: this.blog is the home of my insights as a developer. Here I share m
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: ""
 disqus_account: marcusosterbergblog
-google_analytics: "UA-69053803-1"
 
 # Social Usernames
 twitter_username: osterbergmarcus
