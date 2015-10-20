@@ -91,7 +91,7 @@ code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
-  background-color: #eef; }
+  background-color: #C1C1C1; }
 
 code {
   padding: 1px 5px; }
@@ -204,6 +204,223 @@ pre {
   transition: all 0.15s ease-out 0;
   background: #111; }
 
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px; }
+
+.footer-wrapper {
+  color: #fff;
+  text-align: center; }
+
+.back-to-archive {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  font-style: italic; }
+
+.site-footer2:hover {
+  transition: 200ms linear;
+  background: #9f9f9f; }
+
+/**
+* Social
+*/
+.social-links a {
+  color: #111;
+  text-decoration: none; }
+  .social-links a:hover {
+    color: #e8e8e8;
+    text-decoration: none; }
+
+/**
+* About
+*/
+.about {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center; }
+
+.bold {
+  font-weight: 700; }
+
+/**
+* Face image
+*/
+.face {
+  border-radius: 50%;
+  max-width: 100%;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/**
+ * Page content
+ */
+.page-content {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 50px;
+  font-size: 21px; }
+
+.page-heading {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px; }
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+  text-align: center; }
+  .post-list > li {
+    margin-bottom: 30px; }
+
+.post-meta {
+  font-size: 32px;
+  color: #e8e8e8;
+  text-align: center;
+  font-family: 'Lora', serif; }
+
+.post-link {
+  display: block;
+  font-size: 24px;
+  text-align: center; }
+
+/**
+  * Slide navigation
+  */
+.toggle {
+  text-decoration: none;
+  font-size: 35px;
+  color: black;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  position: fixed;
+  top: 1px;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer; }
+
+.toggle2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: rgba(255, 255, 255, 0.7);
+  color: black;
+  line-height: 34px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  font-size: 34px;
+  display: none;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  position: fixed;
+  top: 1px;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer;
+  margin-left: 50px; }
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: -240px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  width: 180px;
+  padding: 30px;
+  background: #333333;
+  z-index: 1; }
+
+#sidebartoggler {
+  display: none; }
+
+#sidebartoggler:checked + .page-wrap .sidebar {
+  left: 0px; }
+
+#sidebartoggler:checked + .page-wrap .toggle {
+  left: 200px;
+  display: none; }
+
+#sidebartoggler:checked + .page-wrap .toggle2 {
+  left: 200px;
+  display: block; }
+
+/**
+ * Blog
+ */
+.blog-text {
+  color: #fff;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.about-me-text {
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .about-me-text a {
+    color: green; }
+
+.comments {
+  background-color: #111;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2); }
+
+/**
+ * Headers
+ */
+.site-header {
+  background-image: url(../assets/img/cape-reinga-banner.JPG);
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
+  padding-bottom: 50%; }
+
+.site-title {
+  font-size: 26px;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left; }
+  .site-title, .site-title:visited {
+    color: #424242; }
+
+.blog-header {
+  background-image: url(../assets/img/blog-header.jpg);
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
+  padding-bottom: 50%;
+  position: relative; }
+
+/**
+* Back to top
+**/
+.backtotop {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+  display: none; }
+
+/**
+ * Site footer
+ */
 .footer-heading {
   font-size: 18px;
   margin-bottom: 15px; }
@@ -377,9 +594,9 @@ pre {
   box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2); }
 
 .post-header {
-  position: absolute;
+  position: relative;
   bottom: 0;
-  margin-left: 30%; }
+  background: #111; }
 
 .post-title {
   font-family: 'Ubuntu Mono', bold;
