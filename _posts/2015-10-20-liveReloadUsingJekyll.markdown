@@ -48,4 +48,5 @@ This will start the Jekyll server and wait for a browser with live reload capabi
 
 If this guide mastered your workflow or destroyed your computer, drop a comment below.
 <br/>
-Enjoy your code.
+<br/>
+<i>Enjoy your code.</i>
