@@ -1,4 +1,4 @@
-var whereScroll = 500;
+var whereScroll = 100;
 $(window).scroll(function(){
 
     var position = $(window).scrollTop();
