@@ -3,7 +3,6 @@ A simple blog powerd by (http://jekyllrb.com/)
 
 ## Contact
 [@_osterbergmarcus](http://www.twitter.com/osterbergmarcus)
-[marcus@gonutri.com](mailto:marcus@gonutri.com)
 
 ## Contribute
 Feel free for pull requests
